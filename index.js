@@ -28,5 +28,5 @@ function getToken() {
       Authorization: `token ${token}`
     }
   }).then(res => res.json()).then(json => console.log(json));
-  return ''
+  return token
 }
